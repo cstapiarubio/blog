@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>El blog de Carolina</title>
+        <meta name="description" content="Mi primer blog, creado en Talento Digital">
+    </head>
+    <body style="font-size: 25px;">
+        <div id="descripcion" style="background-color:#C1FFF3; text-align: center;">
+            <h1>El Blog de Carolina</h1>
+            <img src="../src/img/caro.jpg" alt="Imagen de madre y su hijo" width="300" height= "500">
+            <p>Soy Carolina, tengo 30 años, madre de un bebé muy risueño. Este blog está dedicado a todas las cosas que me gustan hacer; aprenderás sobre agricultura orgánica, programación, belleza, maternidad, ciencia, entre otros.
+            </p>
+        </div>
+        <div id="temas" style="background-color: #75DCF0;">
+            <h3>Los inventos más increíbles  de la historia</h3>
+            <ul>
+                <li>Microscopio: Durante muchos años, los científicos estuvieron trabajando ‘a ciegas’ ya que desconocían aquello que habitaba en la sangre humana. Sin embargo, gracias a esta invención, los científicos pudieron descubrir y ‘defenderse’ de diversas bacterias; a través de, las vacunas que pudieron desarrollar luego de descubrir alguna enfermedad.</li>
+                <li>Fax: El fax fue inventado en el año 1843, se encarga de procesar un documento convirtiéndolo en un mapa de bits, el cual es enviado a través de los cables del teléfono, para luego ser decodificado por una segunda máquina de fax encargada de imprimir el texto e imágenes que procesó la primera máquina.</li>
+                <li>Mano robótica: Si bien, hoy en día, existen muchos aparatos robóticos que simulan ser extremidades humanas, lo impresionante de este objeto es que además de obedecer el pensamiento de quien lo porta, es capaz de devolverle la sensibilidad del miembro perdido a la persona que lo usa. Recuperando así la funcionalidad del miembro, de forma completa.</li>
+            </ul>  
+            <h3>Lenguajes de programación más usados en 2019</h3>
+            <table border=1>
+                <thead>
+                    <tr>
+                        <th>Lenguaje</th>
+                        <th>Año de creación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><p>Java</p></td>
+                        <td><p>1996</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>C</p></td>
+                        <td><p>1969</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Phyton</p></td>
+                        <td><p>1991</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>C++</p></td>
+                        <td><p>1979</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Visual Basic.net</p></td>
+                        <td><p>2001</p></td>
+                    </tr>
+                 </tbody>
+             </table>
+                <a href="https://gestion.pe/tecnologia/lenguajes-programacion-usados-actualidad-java-javascript-nnda-nnlt-252086-noticia/?ref=gesr">Pincha acá para saber más</a>
+            
+            <h3>¿Qué es la agricultura orgánica?</h3>
+            <p>La agricultura orgánica es un sistema de producción que trata de utilizar al máximo los recursos de la finca, dándole énfasis a la fertilidad del suelo y la actividad biológica y al mismo tiempo, a minimizar el uso de los recursos no renovables y no utilizar fertilizantes y plaguicidas sintéticos para proteger el medio ambiente y la salud humana. 
+                <a href="http://www.fao.org/3/ad818s/ad818s03.htm">Leer más</a> 
+            </p>
+            <h3>Baby led weaning: Una forma de alimentación para nuestro bebé</h3>
+            <p>El baby led weaning (blw), podría traducirse como “alimentación complementaria autorregulada” o “alimentación complementaria a demanda”, es una manera de incorporar los sólidos en la alimentación del bebé sin pasar por la fase de purés y papillas, siendo el propio bebé quien se alimenta por sí mismo usando las manos.
+                <a href="https://blwrecetas.com/blw/">Quiero informarme más</a>
+            </p>
+        </div>
+        <h3>¿Qué tema te gustaría que escribieramos para el próximo artículo?</h3>
+        <form>
+            <table border=1>
+                <thead>
+                    <tr>
+                        <th>Campo</th>
+                        <th>Entrada</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td> <input type="text" id="nombre" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="genero">Género</label></td>
+                        <td><label for="hombre">hombre</label>
+                            <input type="radio" id="hombre" name="genero">
+                            <label for="mujer">mujer</label>
+                            <input type="radio" id="mujer" name="genero">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="temas">Temas</label></td>
+                        <td><label for="saludable">Vida saludable</label>
+                            <input type="checkbox" id="saludable" name="temas">
+                            <label for="programar">Programación y ciencia</label>
+                            <input type="checkbox" id="programar" name="temas">
+                            <label for="maternidad">Maternidad</label>
+                            <input type="checkbox" id="maternidad" name="temas">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p>¿Qué tan interesantes son los temas?</p>
+                        <td>
+                            <select>
+                            <option id="alto" name="niveles" value="alto">Muy interesante</option>
+                            <option id="medio" name="niveles" value="medio">Medianamente interesante</option>
+                            <option id="bajo" name="niveles" value="bajo">Nada interesante</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Enviar">
+                        </td>                       
+                    </tr>  
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
